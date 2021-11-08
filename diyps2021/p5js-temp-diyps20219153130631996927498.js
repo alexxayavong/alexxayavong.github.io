@@ -51,7 +51,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     stroke(100, 0, 255, 20);
     line(0, 0, pmouseX, pmouseY);
  
-  } else if (key == '5') { //skip
+  } else if (key == '5') { // this tool calls a function
     
     stroke(0, 0, 255);
     testbox(20, 20, 200);
@@ -84,12 +84,12 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     strokeWeight(1.0 / scalar);
     rect(-15, -15, 40, 30);
   
-  } else if (toolChoice == '9') { // skip
+  } else if (toolChoice == '9') {
 
   rotate(mouseX / 100.0);
   rect(50, 50, 160, 20);
   
-  } else if (toolChoice == '0') { // skip
+  } else if (toolChoice == '0') {
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
     rect(mouseX, mouseY, 200, 150);
@@ -97,7 +97,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == 'g' || toolChoice == 'G') { // Rick Astley gif!!!!
     image(img, mouseX-25, mouseY-25, 50, 50);
     
-  } else if (toolChoice == 'q' || toolChoice == 'Q') { // Make Pikachu go sonic speed
+  } else if (toolChoice == 'q' || toolChoice == 'Q') { // rick astley gif!!!
     
     image(img2, mouseX, mouseY, 50, 50);
   
