@@ -6,7 +6,7 @@ var score= 0;
 var img;
 
 function preLoad(){
- //img = loadImage('f.jpg');
+
 }
 
 function setup() {

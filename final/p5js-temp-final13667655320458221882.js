@@ -6,7 +6,7 @@ var score= 0;
 var img;
 
 function preLoad(){
- img = loadImage('f.jpg');
+
 }
 
 function setup() {
@@ -57,7 +57,7 @@ function pickRandom(){
 }
 
 function endScreen(){
-    background(img);
+    background(150);
     textAlign(CENTER);
     text('GAME OVER', width / 2, height / 2);
     text("SCORE = " + score, width / 2, height / 2 + 20);
